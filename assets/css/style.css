@@ -1,0 +1,43 @@
+body {
+    background-color: white;
+}
+.banner {
+    background-image: url(../imagenes/banner01.png);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    padding: 30px;
+}
+.banner h1 {
+    color: rgb(243, 111, 214);
+    text-align: center;
+    text-transform: uppercase;
+}
+.banner h2 {
+    color: rgb(243, 111, 214);
+    font-style: oblique;
+    text-align: center;
+}
+.productos {
+    margin-left: 20%;
+    position: relative;
+}
+.items img {
+    height: 350px;
+    width: 350px;
+    display: inline-block;
+}
+.items p {
+    display: inline-block;
+    margin-left: 10%;
+    position: absolute;
+    margin-top: 12%;
+}
+.piedepagina {
+    background-color: rgb(243, 111, 214);
+    text-align: center;
+}
+.redes a img {
+    width: 30px;
+    height: 30px;
+}
